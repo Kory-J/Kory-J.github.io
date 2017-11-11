@@ -2,8 +2,8 @@ theme: jekyll-theme-cayman
 
 $(document).ready( function() {
   
-		var subreddit = 'VillagePorn'; // Your Subreddit without /r/
-		var aRandomNum = Math.floor((Math.random() * 25) + 1); // A random number - range 25
+		var subreddit = 'Pics'; 
+		var aRandomNum = Math.floor((Math.random() * 25) + 1); 
 		
 		$.getJSON('http://www.reddit.com/r/'+subreddit+'.json?jsonp=?&show=all&limit=25', function(data) {
 			$.each(data.data.children, function(i,item){
