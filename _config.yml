@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 
 $(document).ready( function() {
   
-		var subreddit = 'Pics'; 
+		var subreddit = 'Furry'; 
 		var aRandomNum = Math.floor((Math.random() * 25) + 1); 
 		
 		$.getJSON('http://www.reddit.com/r/'+subreddit+'.json?jsonp=?&show=all&limit=25', function(data) {
