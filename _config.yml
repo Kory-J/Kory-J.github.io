@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-
+body:
 $(document).ready( function() {
   
 		var subreddit = 'Furry'; 
